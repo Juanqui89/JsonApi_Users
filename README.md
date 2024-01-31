@@ -1,30 +1,5 @@
-# React + TypeScript + Vite
+El proyecto JsonApi Users es una aplicación desarrollada en React que se encarga de obtener información de usuarios a través de la API JSONPlaceholder, presentando estos datos en una tabla interactiva. La finalidad de este proyecto es servir como ejemplo práctico para entender el manejo de llamadas asíncronas a una API, la gestión de datos mediante el estado de React, y la representación dinámica de contenido en componentes React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una de las características principales del proyecto es la capacidad para realizar solicitudes asincrónicas utilizando la biblioteca Axios. Esto permite obtener datos actualizados de la API JSONPlaceholder y, mediante el uso del estado de React, lograr una representación dinámica de la información en la interfaz de usuario.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Además, para mejorar la presentación visual de la aplicación, se ha integrado el popular marco de CSS, Bootstrap. Esto no solo garantiza un diseño limpio y atractivo, sino que también proporciona una interfaz de usuario receptiva para adaptarse a diferentes dispositivos y tamaños de pantalla.
